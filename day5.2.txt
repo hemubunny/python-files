@@ -1,0 +1,21 @@
+n=input("enter the grade of the employee :")
+if(n !='A' or n !="B"):
+  print("Entera valid grade")
+s=int(input("enter the employee salary :"))     
+if(s<=0):
+  print("enter a valid salary")
+if(n=='A'):
+    print("The employee salary bonus is=:",s*0.05+s)
+elif(s==0):
+    print("enter a valid salary")
+elif(n=='C'):
+    print("enter a valid grade")
+elif(s<0):
+    print("enter a valid number")
+    int(input("enter valid salary"))
+elif(n=='B'):
+    print("your salary bonus is=:",s*0.1+s)
+elif(s<10000):
+    print("your salary bonus is=:",s*0.02+s)
+else:
+    print("no bonus")
